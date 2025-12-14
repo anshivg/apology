@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sorry, Ishita</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #f8cdda, #1d2b64);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(10px);
+      padding: 32px 36px;
+      border-radius: 16px;
+      max-width: 420px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 14px;
+    }
+    .heart {
+      font-size: 28px;
+      margin: 12px 0;
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 10px 22px;
+      border-radius: 999px;
+      background: #ffffff;
+      color: #1d2b64;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    }
+    .footer {
+      margin-top: 16px;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hey Ishita, I’m really sorry</h1>
+    <p>
+      I’m sorry for my delayed response. It wasn’t intentional — I was actually
+      looking forward to seeing you.
+    </p>
+    <p>
+      If it’s still possible, I’d really like for us to continue without any hard
+      feelings or plans falling apart.
+    </p>
+    <p>
+      I’m also sorry for calling you a bit late.
+    </p>
+    <div class="heart">🤍</div>
+    <p>
+      And… if you’re okay with it — please unblock me.
+    </p>
+    <a class="btn" href="#">Still hoping to hear from you</a>
+    <div class="footer">— From me</div>
+  </div>
+</body>
+</html>
